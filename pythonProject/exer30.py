@@ -1,4 +1,4 @@
-def leiaInt(nmr):                                           #veja o exer29 para tirar possívei dúvidas
+def leiaInt(nmr):                                           
     print(f"Você acabou de digitar o número {nmr}")
 
 while True:
