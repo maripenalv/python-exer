@@ -6,7 +6,7 @@ while True:
     nota1 = float(input("Digite a primeira nota: "))
     nota2 = float(input("Digite a segunda nota: "))
     media = (nota1 + nota2) / 2
-    lista.append([nome, nota1, nota2, media]) #invés de colocar cada um dos itens dentro da lista, podemos colocar de vez dessa forma
+    lista.append([nome, nota1, nota2, media]) 
     contador += 1
 
     escolha = input("Deseja parar o programa? (s/n): ")
@@ -25,7 +25,7 @@ while True:
         if aluno == -1:
             print("Encerrando a visualização das notas.")
             break
-        if 1 <= aluno <= contador: # "1 <= aluno" verifica se o índice aluno fornecido pelo usuário é maior ou igual a 1 e "aluno <= contador" verifica se o índice aluno fornecido pelo usuário é menor ou igual ao valor do contador, que representa o número total de alunos na lista
+        if 1 <= aluno <= contador: 
             print(f"As notas do(a) aluno(a) {lista[aluno - 1][0]} foram {lista[aluno - 1][1]} e {lista[aluno - 1][2]}")
         else:
             print("Índice inválido. Tente novamente.")
