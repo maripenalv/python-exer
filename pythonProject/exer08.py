@@ -2,9 +2,9 @@ lista = []
 
 while True:
     nmr=input("Digite um valor: ")
-    if nmr not in lista: #se o número não estiver contido na lista, será adicionado a ela
+    if nmr not in lista: 
      lista.append(nmr)
-    else:                #caso contrário, uma mensagem de aviso será printada
+    else:                
         print("Número repetido, escolha outro.")
     escolha = input("Deseja continuar?")
     if escolha == "n":
