@@ -1,4 +1,4 @@
-lista = []  #meu jeito de fazer
+lista = []  
 lista2 = []
 lista3= []
 
