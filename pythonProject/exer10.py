@@ -2,8 +2,8 @@ lista = []
 
 while True:
     nmr = input("Digite um número: ")
-    lista.append(int(nmr))                #se você quiser que o "if 5 in lista" funcione, você deve afirmar que as informações que
-    escolha = input("Deseja continuar?")  #entrarão na lista são números, por isso usamos "int"
+    lista.append(int(nmr))                
+    escolha = input("Deseja continuar?")  
     if escolha == "s":
         print("Certo, vamos continuar")
     elif escolha == "n":
